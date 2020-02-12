@@ -1,0 +1,20 @@
+{
+  "name": "aws-serverless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.614.0",
+    "uuid": "^3.4.0",
+    "virustotal-api": "^1.1.1"
+  },
+  "devDependencies": {
+    "serverless-offline": "^5.12.1",
+    "serverless-s3-local": "^0.5.4"
+  }
+}
